@@ -27,7 +27,7 @@ if (Boost_FOUND)
     #link_directories (${Boost_LIBRARY_DIRS})
 endif ()
 
-add_executable(terra main.cpp src/Common.cpp src/Common.h)
+add_executable(terrai main.cpp src/Block.cpp src/Block.h src/utils/ThreadPool.cpp src/utils/ThreadPool.h)
 if(Boost_FOUND)
     # "Link a target to given libraries."
     target_link_libraries (${PROJECT_NAME} ${Boost_LIBRARIES})

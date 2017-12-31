@@ -21,6 +21,10 @@ Call Stack (most recent call first):
 -- Found the following Boost libraries:
 --   system
 --   filesystem
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/nixholas/Projects/terra/cmake-build-debug
+CMake Error at CMakeLists.txt:33 (target_link_libraries):
+  Cannot specify link libraries for target "terra" which is not built by this
+  project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/nixholas/Projects/terra/cmake-build-debug/CMakeFiles/CMakeOutput.log".

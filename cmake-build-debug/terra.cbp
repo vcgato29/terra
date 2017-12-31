@@ -83,6 +83,12 @@
 		<Unit filename="/Users/nixholas/Projects/terra/main.cpp">
 			<Option target="terra"/>
 		</Unit>
+		<Unit filename="/Users/nixholas/Projects/terra/src/Block.cpp">
+			<Option target="terra"/>
+		</Unit>
+		<Unit filename="/Users/nixholas/Projects/terra/src/Block.h">
+			<Option target="terra"/>
+		</Unit>
 		<Unit filename="/Users/nixholas/Projects/terra/src/Common.cpp">
 			<Option target="terra"/>
 		</Unit>

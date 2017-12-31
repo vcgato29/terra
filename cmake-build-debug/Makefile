@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Block.o: src/Block.cpp.o
+
+.PHONY : src/Block.o
+
+# target to build an object file
+src/Block.cpp.o:
+	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/src/Block.cpp.o
+.PHONY : src/Block.cpp.o
+
+src/Block.i: src/Block.cpp.i
+
+.PHONY : src/Block.i
+
+# target to preprocess a source file
+src/Block.cpp.i:
+	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/src/Block.cpp.i
+.PHONY : src/Block.cpp.i
+
+src/Block.s: src/Block.cpp.s
+
+.PHONY : src/Block.s
+
+# target to generate assembly for a file
+src/Block.cpp.s:
+	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/src/Block.cpp.s
+.PHONY : src/Block.cpp.s
+
 src/Common.o: src/Common.cpp.o
 
 .PHONY : src/Common.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Block.o"
+	@echo "... src/Block.i"
+	@echo "... src/Block.s"
 	@echo "... src/Common.o"
 	@echo "... src/Common.i"
 	@echo "... src/Common.s"
