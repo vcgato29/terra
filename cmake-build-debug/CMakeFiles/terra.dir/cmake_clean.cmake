@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/terra.dir/main.cpp.o"
+  "CMakeFiles/terra.dir/src/Common.cpp.o"
   "terra.pdb"
   "terra"
 )

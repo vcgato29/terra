@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Common.o: src/Common.cpp.o
+
+.PHONY : src/Common.o
+
+# target to build an object file
+src/Common.cpp.o:
+	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/src/Common.cpp.o
+.PHONY : src/Common.cpp.o
+
+src/Common.i: src/Common.cpp.i
+
+.PHONY : src/Common.i
+
+# target to preprocess a source file
+src/Common.cpp.i:
+	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/src/Common.cpp.i
+.PHONY : src/Common.cpp.i
+
+src/Common.s: src/Common.cpp.s
+
+.PHONY : src/Common.s
+
+# target to generate assembly for a file
+src/Common.cpp.s:
+	$(MAKE) -f CMakeFiles/terra.dir/build.make CMakeFiles/terra.dir/src/Common.cpp.s
+.PHONY : src/Common.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Common.o"
+	@echo "... src/Common.i"
+	@echo "... src/Common.s"
 .PHONY : help
 
 
